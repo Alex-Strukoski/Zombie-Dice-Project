@@ -1,0 +1,1 @@
+('Endereço eletrônico', '127.0.1.1') ('Endereço MAC', 'd8:50:e6:eb:88:8f') ('Usuário', 'Nuno') ('Hora', '22/04/2022 - 17h:30m:28s') ('OS', 'posix') [Modo de jogo: Regular] [Numero de jogadores: 2] Alex - cerebros: 0 e tiros: 3 | Mestre Nuno - cerebros: 2 e tiros: 1 | 
