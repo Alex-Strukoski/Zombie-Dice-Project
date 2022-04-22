@@ -137,34 +137,9 @@ def menu():
                 sus()
                 sleep(1)
                 exit(f"\n\nFinalizando.")
-        elif login == "Nuno":
-            login = "Mestre Nuno"
-            break
-        elif login == "Nara":
-            login = "Nara Gostosa"
-            print(f"{colors.red}ALERTA")
-            sleep(1)
-            print("DE")
-            sleep(1)
-            print("GOSTOSA")
-            sleep(1)
-            print("♥♥♥♥♥♥♥", colors.reset)
-            break
-        elif login == "Olavo":
-            login = "Olavo que achou seu lugar"
+        if login == "Olavo":
             print(colors.reset)
             Graphics.skull(7)
-            break
-        elif login == "Sonic":
-            login = "Autista"
-            clearScreen()
-            Graphics.spinningBar(15)
-            clearScreen()
-            print(colors.blue)
-            print(Graphics.gameGraphics.sonic)
-            print(colors.reset)
-            sleep(5)
-            clearScreen()
             break
         else:
             clearScreen()
