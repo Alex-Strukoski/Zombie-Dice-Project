@@ -505,6 +505,19 @@ def spinningBar(t=5):
     print(f"{ZombieDice.colors.blue}({ZombieDice.colors.reset} \\ {ZombieDice.colors.blue}){ZombieDice.colors.reset}")
     sleep(0.1)
 
-
+def loadingBar(n, t):
+    """_A loading Bar animation_
+    
+    Args:
+        n (_int_): set's the number of times to load
+        t (_float_): set's the speed of the animation
+    """
+    for i in range(n):
+        contador += 1
+        bar = "█" * contador
+        print(f"{ZombieDice.colors.red}{bar}")
+        print(f"{int(contador/n*100)}%")
+        sleep(t)
+        ZombieDice.clearScreen()
     
 
