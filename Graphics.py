@@ -509,14 +509,15 @@ def loadingBar(n, t):
     """_A loading Bar animation_
     
     Args:
-        n (_int_): set's the number of times to load
-        t (_float_): set's the speed of the animation
+       n (_int_): set's the number of times to load if none is given. Default is 10.
+       t (_float_): set's the speed of the animation if none is given. Default is 1.
     """
+    contador = 0
     for i in range(n):
         contador += 1
         bar = "█" * contador
         print(f"{ZombieDice.colors.red}{bar}")
-        print(f"{int(contador/n*100)}%")
+        print(f"{int(contador/n*100)}%", ZombieDice.colors.reset)
         sleep(t)
         ZombieDice.clearScreen()
     
