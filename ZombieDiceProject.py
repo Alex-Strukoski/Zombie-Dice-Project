@@ -20,5 +20,6 @@ else:
     ZombieDice.clearScreen()
     # Caso não tenha instalado o pygame, recomendo instalar antes de jogar. [Exemplo linux: > pip install pygame]
     # Caso você tenha instalado e mesmo assim não rode, veja se tem duas versões de python instaladas.
+    Graphics.loadingBar(30, 0.1)
     ZombieDice.menu()
 
