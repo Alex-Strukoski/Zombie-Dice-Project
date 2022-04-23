@@ -286,8 +286,8 @@ def jogo():
                         cont = 0
                         copo.clear()
                         copo = listaDados.copy()
-                        sleep(5)
                         ZombieDice.clearScreen()
+                        continue
                     else:
                         ZombieDice.clearScreen()
                         continue
@@ -302,6 +302,7 @@ def jogo():
                     cont = 0
                     copo.clear()
                     copo = listaDados.copy()
+                    continue
                 else:
                     if jogadorAtual > numJogadores:
                         ZombieDice.clearScreen()
