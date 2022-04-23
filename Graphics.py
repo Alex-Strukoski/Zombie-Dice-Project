@@ -505,7 +505,7 @@ def spinningBar(t=5):
     print(f"{ZombieDice.colors.blue}({ZombieDice.colors.reset} \\ {ZombieDice.colors.blue}){ZombieDice.colors.reset}")
     sleep(0.1)
 
-def loadingBar(n, t):
+def loadingBar(n=10, t=1):
     """_A loading Bar animation_
     
     Args:
